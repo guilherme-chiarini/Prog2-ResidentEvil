@@ -19,3 +19,35 @@ Durante a exploração, o jogador precisa administrar sua movimentação e o tem
 O contato com zumbis pode provocar penalidades e perda de vidas, enquanto o esgotamento do tempo pode exigir o reinício da fase. Após a conclusão de todas as entregas necessárias, a saída do mapa é liberada, permitindo o avanço para o próximo cenário.
 
 O jogo também contempla uma interface com informações sobre o estado da partida, incluindo vidas, pontuação, fase atual, tempo restante e itens transportados. Além disso, são previstas funcionalidades de menu inicial, pausa, salvamento e carregamento de partidas.
+
+### Pastas e arquivos
+
+ - source
+   - main.c
+   - jogo.c
+   - mapa.c
+   - jogador.c
+   - kits.c
+   - zumbis.c
+   - interface.c
+   - menu.c
+   - eventos.c
+   - save.c
+
+ - include
+   - jogo.h
+   - mapa.h
+   - jogador.h
+   - kits.h
+   - zumbis.h
+   - interface.h
+   - menu.h
+   - eventos.h
+   - save.h
+
+ - mapas
+   - mapa1.txt
+   - mapa2.txt
+
+ - saves
+   - save.bin
