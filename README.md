@@ -35,6 +35,7 @@ O jogo também contempla uma interface com informações sobre o estado da parti
    - save.c
 
  - include
+   - tipos.h
    - jogo.h
    - mapa.h
    - jogador.h
