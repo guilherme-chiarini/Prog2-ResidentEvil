@@ -13,13 +13,13 @@ typedef enum{
     KIT_NO_MAPA,
     KIT_TRANSPORTADO,
     KIT_ENTREGUE
-} ESTADO;
+} ESTADO_KIT;
 
 typedef struct {
     int id;
     POSICAO posicao;
     TIPO_KIT tipo;
-    ESTADO estado;
+    ESTADO_KIT estadoKit;
 } KIT;
 
 typedef struct {
