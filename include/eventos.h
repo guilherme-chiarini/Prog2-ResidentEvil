@@ -7,13 +7,13 @@
 typedef enum {
   ABERTO,
   FECHADO
-} ESTADO;
+} ESTADO_PORTAO;
 
 typedef struct {
   POSICAO posicao;
   
   // Se esta aberto ou fechado
-  ESTADO estado;
+  ESTADO_PORTAO estadoPortao;
 
   // Informacoes temporais para alternar entre os estados
   float tempoEstado;
